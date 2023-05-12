@@ -6,7 +6,7 @@
     width: 1025px;
     border: solid 2px red;
     margin:100px auto;
-    padding: 30px;
+    padding: 40px 50px 30px 40px;
 }
 
 .jogo{
@@ -17,6 +17,13 @@ img {
     height: 466px;
     width: 400px;
     object-fit: cover;
+}
+.containerPalavraJogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:end;
+    width: 400px;
 }
 .choose{
     width: 200px;
@@ -31,6 +38,10 @@ img {
 }
 .letras,.choose:hover{
     cursor: pointer;
+}
+.palavraDaForca{
+    font-size: 45px;
+    color:#27AE60;
 }
 
 

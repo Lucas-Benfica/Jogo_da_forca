@@ -4,7 +4,7 @@ const alfabeto = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m
 export default function Letras(){
     return (
         <div className="containerLetras">
-            {alfabeto.map( (letra) => <button className="letras naoSelecionado">{letra}</button>)}
+            {alfabeto.map( (letra) => <button key={letra} className="letras naoSelecionado">{letra}</button>)}
         </div>
     );
 }
