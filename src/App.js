@@ -10,7 +10,6 @@ function App() {
   let [qtdAcertos, setQtdAcertos] = useState(0);
   let [inGame, setInGame] = useState(false);
 
-
   return (
     <div className="main">
       <Jogo 

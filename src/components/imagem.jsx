@@ -40,6 +40,6 @@ export default function Imagem({qtdErros}){
     }
 
     return (
-        <img src={img} />
+        <img src={img} data-test="game-image"/>
     );
 }
