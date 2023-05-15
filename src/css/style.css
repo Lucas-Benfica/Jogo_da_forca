@@ -4,7 +4,6 @@
 .main{
     height: 839px;
     width: 1025px;
-    border: solid 2px red;
     margin:100px auto;
     padding: 40px 50px 30px 40px;
 }
@@ -41,6 +40,12 @@ img {
 }
 .palavraDaForca{
     font-size: 45px;
+    color: black;
+}
+.jogoPerdido{
+    color: #FF0000
+}
+.jogoGanho{
     color:#27AE60;
 }
 
