@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Jogo_da_forca/static/css/main.a1ef8014.css",
+    "main.js": "/Jogo_da_forca/static/js/main.d6ed92a9.js",
+    "static/media/forca6.png": "/Jogo_da_forca/static/media/forca6.afdf03495878c3267efe.png",
+    "static/media/forca5.png": "/Jogo_da_forca/static/media/forca5.bdf79337937f607f16af.png",
+    "static/media/forca4.png": "/Jogo_da_forca/static/media/forca4.2062be27168b92ff7995.png",
+    "static/media/forca3.png": "/Jogo_da_forca/static/media/forca3.a1c636aa6bd28cb01e67.png",
+    "static/media/forca2.png": "/Jogo_da_forca/static/media/forca2.bbd9041e6b844b7d4679.png",
+    "static/media/forca1.png": "/Jogo_da_forca/static/media/forca1.cad67068764c8063ab83.png",
+    "static/media/forca0.png": "/Jogo_da_forca/static/media/forca0.00d24443942a50ed0ec0.png",
+    "index.html": "/Jogo_da_forca/index.html",
+    "main.a1ef8014.css.map": "/Jogo_da_forca/static/css/main.a1ef8014.css.map",
+    "main.d6ed92a9.js.map": "/Jogo_da_forca/static/js/main.d6ed92a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1ef8014.css",
+    "static/js/main.d6ed92a9.js"
+  ]
+}
