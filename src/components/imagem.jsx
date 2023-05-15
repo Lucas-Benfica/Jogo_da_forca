@@ -7,7 +7,7 @@ import forca5 from "../assets/forca5.png"
 import forca6 from "../assets/forca6.png"
 
 
-export default function Imagem({qtdErros}){
+export default function Imagem({qtdErros, resultado}){
     let img = '';
     switch(qtdErros){
         case 0:
@@ -37,6 +37,9 @@ export default function Imagem({qtdErros}){
         case 6:
             img = forca6
         break;
+    }
+    if(resultado === 'perdeu'){
+        img = forca6;
     }
 
     return (

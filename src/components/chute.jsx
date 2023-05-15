@@ -18,10 +18,16 @@ export default function Chute({palavra, setResultado, resultado, inGame}){
     );
 }
 function verificarChute(chute, palavra, setResultado, setChute){
-    if(chute === palavra){
+    
+    if(compararPalavras(chute, palavra)){
         setResultado('ganhou');
     }else{
         setResultado('perdeu');
     }
+
     setChute('');
+    
+}
+function compararPalavras(chute, palavra){
+    return chute.localeCompare(palavra, 'pt', { sensitivity: 'base' }) === 0;
 }

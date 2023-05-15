@@ -17,7 +17,7 @@ export default function Jogo({palavra, setPalavra, selecionadas, setSelecionadas
     
     return (
         <div className="jogo">
-            <Imagem qtdErros={qtdErros} />
+            <Imagem qtdErros={qtdErros} resultado={resultado} />
             <div className="containerPalavraJogo">
                 <button className="choose" onClick={selecionarPalavra} data-test="choose-word" >Escolher Palavra</button>
                 <Palavra palavra={palavra} selecionadas={selecionadas} resultado={resultado}/>
