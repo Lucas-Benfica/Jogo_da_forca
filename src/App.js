@@ -1,5 +1,6 @@
 import Jogo from "./components/jogo"
 import Letras from "./components/letras"
+import Chute from "./components/chute";
 import { useState } from "react";
 
 function App() {
@@ -26,6 +27,11 @@ function App() {
       qtdAcertos={qtdAcertos} setQtdAcertos={setQtdAcertos}
       resultado={resultado} setResultado={setResultado}
       inGame={inGame} 
+      />
+      <Chute 
+      palavra={palavra}
+      setResultado={setResultado} resultado={resultado}
+      inGame={inGame}
       />
     </div>
   );

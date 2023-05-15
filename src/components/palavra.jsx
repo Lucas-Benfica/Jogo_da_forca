@@ -3,7 +3,7 @@ export default function Palavra({palavra, selecionadas, resultado}){
         const arrayLetras = palavra.split('');
         if(resultado === ''){
             return(
-                <div className="palavraDaForca" data-test="word">{arrayLetras.map((letra) => selecionadas.includes(letra) ? letra : "_ ")}</div>
+                <div className="palavraDaForca" data-test="word">{arrayLetras.map((letra) => selecionadas.includes(letra) ? letra : " _ ")}</div>
             );
         }
         else if(resultado === 'perdeu'){

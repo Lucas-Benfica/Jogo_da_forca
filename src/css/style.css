@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -6,6 +7,7 @@
     width: 1025px;
     margin:100px auto;
     padding: 40px 50px 30px 40px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .jogo{
@@ -33,13 +35,14 @@ img {
     background-color: #27AE60;
     margin-top: 30px;
     border: none;
-    font-weight: bold;
+    font-weight: 700;
 }
-.letras,.choose:hover{
+.letras,.containerChute button,.choose:hover{
     cursor: pointer;
 }
 .palavraDaForca{
-    font-size: 45px;
+    font-size: 50px;
+    font-weight: 700;
     color: black;
 }
 .jogoPerdido{
@@ -53,10 +56,10 @@ img {
 .containerLetras{
     width: 664px;
     height: 91px;
-    gap: 10px;
+    gap: 12px;
     display: flex;
     flex-wrap: wrap;
-    margin: 80px auto;
+    margin: 80px auto 50px;
 }
 .letras{
     height: 40px;
@@ -64,8 +67,8 @@ img {
     border-radius: 5px;
     border: solid 1px #7AA7C7;   
     text-transform: uppercase;
-    font-weight: bold;
-    font-size: 15px;    
+    font-weight: 700;
+    font-size: 16px;
 }
 .selecionado{
     background-color: #9FAAB5;
@@ -76,5 +79,31 @@ img {
     color: #39739D;
 }
 
+.containerChute{
+    width: 664px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.containerChute h1{
+    color: #000000;
+    font-size: 20px;
+}
+.containerChute input{
+    width: 353px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+.containerChute button{
+    width: 100px;
+    height: 40px;
+    color:#7AA7C7;
+    background: #E1ECF4;
+    border: 1px solid #7AA7C7;
+    border-radius: 3px;
+}
 
 
