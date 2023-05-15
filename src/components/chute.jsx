@@ -7,8 +7,8 @@ export default function Chute({palavra, setResultado, resultado, inGame}){
     return (
         <div  className="containerChute" >
             <h1>Já sabe a palavra?</h1>
-            <input type="text" value={chute} onChange={(event) => setChute(event.target.value)}/>
-            <button 
+            <input data-test="guess-input" type="text" value={chute} onChange={(event) => setChute(event.target.value)}/>
+            <button data-test="guess-button"
                 onClick={()=> verificarChute(chute, palavra, setResultado, setChute)}
                 disabled={( (!inGame) || (resultado !== '' || chute === '')) ? true : false}
             >
@@ -26,7 +26,7 @@ function verificarChute(chute, palavra, setResultado, setChute){
     }
 
     setChute('');
-    
+
 }
 function compararPalavras(chute, palavra){
     return chute.localeCompare(palavra, 'pt', { sensitivity: 'base' }) === 0;
